@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kristin Terrana</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Oleo+Script|Roboto:400,100,700|Roboto+Slab:400,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body ng-app="kraftee">
+
+<div id="pageWrapper">
+  <ng-view></ng-view>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+
+<!-- app files -->
+<script src="js/app.js"></script>
+
+<!-- products module -->
+<script src="products/products.module.js" charset="utf-8"></script>
+<script src="products/products.controller.js" charset="utf-8"></script>
+<script src="products/products.service.js" charset="utf-8"></script>
+
+<!-- cart module -->
+<script src="cart/cart.module.js" charset="utf-8"></script>
+<script src="cart/cart.controller.js" charset="utf-8"></script>
+<script src="cart/cart.service.js" charset="utf-8"></script>
+
+</body>
+</html>
